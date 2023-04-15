@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #00FF80; /*B9DFCC*/
+  font-family: 'DynaPuff', cursive;
+}
+
+.main-container{
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result{
+  width: 500px;
+  height: 35px;
+  font-size: 30px;
+  border: 1px solid black;
+  background-color: white;
+}
+.input-container{
+  text-align: center;
+}
+
+label{
+  font-size: 35px;
+}
+
+input{
+  text-align: right;
+  height: 20%;
+  width: 100%;
+  background: white;
+  border: 1px solid black;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.keyboard{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+button{
+  font-family: 'DynaPuff', cursive;
+  font-size: 40px;
+  border-radius: 15px;
+  background: none;
+  background-color: #7FFFBF;
+  border: 4px solid black;
+  transition-duration: 0.4s;
+}
+
+button:hover{
+  border: 4px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.calcular{
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.calcular-btn{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 30px;
+  background-color: #08542E;
+  color: white;
+}
+
+.calcular-btn:hover{
+  color: black;
+}
